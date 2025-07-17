@@ -120,7 +120,7 @@ println("Best Grid Config: bs=$(best.BatchSize), lr=$(best.LR), decay=$(best.Dec
 println("Final Accuracy using best config: $(round(acc_best*100, digits=2))%")
 
 if acc_best > acc_q3
-    println("✅ Improved over Q3 setup")
+    println(" Improved over Q3 setup")
 else
-    println("❌ No improvement")
+    println(" No improvement")
 end
